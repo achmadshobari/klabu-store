@@ -2,12 +2,13 @@ import BookCard from "./BookCard";
 
 const books = [
   {
-    title: "The Silent Hours",
-    author: "Eleanor Vance",
-    synopsis: "A poetic exploration of solitude and self-discovery set against the backdrop of a remote coastal village.",
-    category: "Literary Fiction",
-    coverImage: "/coverImage/the-silent-hours.jpg",
-    price: "Rp 89.000",
+    title: "Kepingan Puzzle Bintang",
+    author: "Antie",
+    synopsis: "Bintang adalah seorang ibu muda yang tampak tegar, tetapi sering kali ia tidak mengingat apa yang baru saja ia lakukan. Ada bagian dari dirinya yang terasa asing, seolah hidupnya menyimpan rahasia yang tak bisa ia jangkau.",
+    category: "Self Improvement",
+    coverImage: "/coverImage/pic1.png",
+    price: "Rp 99.000", // current (discounted) price
+    originalPrice: "Rp 115.000", // original price to render as struck-through
   },
 ];
 

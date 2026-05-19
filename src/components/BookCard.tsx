@@ -8,9 +8,10 @@ interface BookCardProps {
   category: string;
   coverImage: string;
   price: string;
+  originalPrice: string;
 }
 
-const BookCard = ({ title, author, synopsis, category, coverImage, price }: BookCardProps) => {
+const BookCard = ({ title, author, synopsis, category, coverImage, price, originalPrice }: BookCardProps) => {
   const handleBuy = () => {
     window.location.href = `/checkout?book=${encodeURIComponent(title)}`;
   };
@@ -50,16 +51,22 @@ const BookCard = ({ title, author, synopsis, category, coverImage, price }: Book
         </p>
 
         {/* Price and Buy Button */}
-        <div className="flex items-center justify-between pt-4 border-t border-border">
-          <span className="font-serif text-lg font-semibold text-card-foreground">
-            {price}
-          </span>
+        <div className="flex items-center justify-between w-full pt-4 border-t border-border">
+          <div className="flex flex-col items-start">
+        <span className="text-sm text-muted-foreground line-through">
+          {originalPrice}
+        </span>
+        <span className="font-serif text-lg font-semibold text-card-foreground">
+          {price}
+        </span>
+          </div>
+
           <Button
-            variant="serene"
-            size="sm"
-            onClick={handleBuy}
+        variant="serene"
+        size="sm"
+        onClick={handleBuy}
           >
-            Beli Sekarang
+        Beli Sekarang
           </Button>
         </div>
       </div>

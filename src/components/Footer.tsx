@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-5 h-5 text-primary" />
             <span className="font-serif text-xl font-semibold text-primary">
-              Gray Library
+              Klabu Store
             </span>
           </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
             Made with <Heart className="w-3 h-3 text-serene fill-serene" /> for book lovers
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            © {new Date().getFullYear()} Gray Library. All rights reserved.
+            © {new Date().getFullYear()} Klabu Store. All rights reserved.
           </p>
         </div>
       </div>
