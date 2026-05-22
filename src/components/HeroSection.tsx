@@ -46,7 +46,7 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-muted-foreground font-light max-w-xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
-            Discover a thoughtfully curated collection of e-books, 
+            Discover a thoughtfully curated collection of books, 
             where every page invites you into worlds of wonder and wisdom.
           </p>
 

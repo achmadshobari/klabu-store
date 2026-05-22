@@ -7,8 +7,8 @@ const books = [
     synopsis: "Bintang adalah seorang ibu muda yang tampak tegar, tetapi sering kali ia tidak mengingat apa yang baru saja ia lakukan. Ada bagian dari dirinya yang terasa asing, seolah hidupnya menyimpan rahasia yang tak bisa ia jangkau.",
     category: "Self Improvement",
     coverImage: "/coverImage/pic1.png",
-    price: "Rp 99.000", // current (discounted) price
-    originalPrice: "Rp 115.000", // original price to render as struck-through
+    price: "Rp 105.000", // current (discounted) price
+    originalPrice: "Rp 117.000", // original price to render as struck-through
   },
 ];
 
@@ -22,7 +22,7 @@ const GallerySection = () => {
             Our Collection
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-primary mb-4">
-            Curated E-Books
+            Curated Books
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
             Handpicked stories that speak to the soul, waiting to become your next favorite read.
