@@ -9,12 +9,14 @@ interface BookCardProps {
   coverImage: string;
   price: string;
   originalPrice: string;
+  link: string;
 }
 
-const BookCard = ({ title, author, synopsis, category, coverImage, price, originalPrice }: BookCardProps) => {
+const BookCard = ({ title, author, synopsis, category, coverImage, price, originalPrice, link }: BookCardProps) => {
   const handleBuy = () => {
-    window.location.href = `/checkout?book=${encodeURIComponent(title)}`;
+    //window.location.href = `/checkout?book=${encodeURIComponent(title)}`;
     //window.location.href = 'https://forms.gle/mygwkYQzgD8KiDkw6'; // Redirect to the specified URL
+    window.location.href = link; // Redirect to the specified URL
   };
 
   return (

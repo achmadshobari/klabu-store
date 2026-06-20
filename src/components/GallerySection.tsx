@@ -2,6 +2,16 @@ import BookCard from "./BookCard";
 
 const books = [
   {
+    title: "Buku Sadari Linkungan",
+    author: "18 Ibu Yang Sadar Lingkungan",
+    synopsis: "Pernahkah kalian berpikir, ke mana perginya sampah yang kalian buang setiap hari? Masalah yang terlihat sepele, seperti membuang sampah, ternyata bisa berdampak besar bagi bumi kita. Kesadaran inilah yang mendorong kami, para ibu dengan anak-anak seusia kalian, untuk menulis cerita-cerita tentang masalah lingkungan.",
+    category: "Buku Anak",
+    coverImage: "/coverImage/pic2.jpg",
+    price: "3 Buku - Rp 128.000, 1 Buku - Rp 48.000", // current (discounted) price
+    originalPrice: "", // original price to render as struck-through
+    link :"https://forms.gle/JZ3FhL3p3UvCHA1e7",
+  },
+  {
     title: "Kepingan Puzzle Bintang",
     author: "Antie",
     synopsis: "Bintang adalah seorang ibu muda yang tampak tegar, tetapi sering kali ia tidak mengingat apa yang baru saja ia lakukan. Ada bagian dari dirinya yang terasa asing, seolah hidupnya menyimpan rahasia yang tak bisa ia jangkau.",
@@ -9,15 +19,7 @@ const books = [
     coverImage: "/coverImage/pic1.png",
     price: "Rp 105.000", // current (discounted) price
     originalPrice: "Rp 117.000", // original price to render as struck-through
-  },
-    {
-    title: "Buku Sadari Linkungan",
-    author: "18 Ibu Yang Sadar Lingkungan",
-    synopsis: "",
-    category: "Buku Anak",
-    coverImage: "/coverImage/pic2.jpg",
-    price: "3 Buku - Rp 128.000, 1 Buku - Rp 48.000", // current (discounted) price
-    originalPrice: "", // original price to render as struck-through
+    link :"https://forms.gle/mygwkYQzgD8KiDkw6",
   },
 ];
 
