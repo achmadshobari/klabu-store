@@ -10,6 +10,15 @@ const books = [
     price: "Rp 105.000", // current (discounted) price
     originalPrice: "Rp 117.000", // original price to render as struck-through
   },
+    {
+    title: "Buku Sadari Linkungan",
+    author: "18 Ibu Yang Sadar Lingkungan",
+    synopsis: "",
+    category: "Buku Anak",
+    coverImage: "/coverImage/pic2.jpg",
+    price: "3 Buku - Rp 128.000, 1 Buku - Rp 48.000", // current (discounted) price
+    originalPrice: "", // original price to render as struck-through
+  },
 ];
 
 const GallerySection = () => {
