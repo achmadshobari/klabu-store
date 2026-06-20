@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BookOpen, Menu, X } from "lucide-react";
+import { Book, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +36,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("home")}
             className="flex items-center gap-3 group"
           >
-            <BookOpen className="w-6 h-6 text-primary transition-transform group-hover:scale-105" />
+            <img src="/klabu.png" alt="Klabu Store" className="w-12 h-12" />
             <span className="font-serif text-2xl font-semibold tracking-wide text-primary">
               Klabu Store
             </span>

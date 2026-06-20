@@ -7,7 +7,8 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center">
           {/* Logo */}
           <div className="flex items-center gap-3 mb-6">
-            <BookOpen className="w-5 h-5 text-primary" />
+           <img src="/klabu.png" alt="Klabu Store" className="w-12 h-12" />            
+
             <span className="font-serif text-xl font-semibold text-primary">
               Klabu Store
             </span>
